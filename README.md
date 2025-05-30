@@ -1,118 +1,143 @@
-Marcos Paulo | Full Stack Developer Portfolio
-This is the source code for my personal portfolio website, showcasing my skills, experiences, projects, and achievements as a Full Stack Developer with over 5 years of experience in building modern, scalable web solutions.
-🚀 Overview
-The portfolio is a modern, responsive single-page application designed to highlight my expertise in full-stack development, including technologies like PHP, Laravel, ReactJS, and Python. It includes sections for skills, work experience, education, open-source projects, big projects, certifications, and contact information.
-Key Features
+# Marcos Paulo | Full Stack Developer Portfolio
 
-Responsive Design: Optimized for all devices using a mobile-first approach.
-Interactive UI: Includes Lottie animations for engaging visuals.
-Theme Toggle: Light/dark mode switch for user preference.
-Social Media Integration: Links to GitHub, LinkedIn, and other platforms.
-Downloadable Resume: Easy access to a PDF version of my resume.
-Open Source Projects: Showcases GitHub repositories with project details.
-SEO Optimized: Includes meta tags for Open Graph and Twitter Cards.
+Este é o código-fonte do meu portfólio pessoal, destacando minhas habilidades, experiências, projetos e conquistas como Desenvolvedor Full Stack com mais de 5 anos de experiência em soluções web modernas e escaláveis.
 
-🛠️ Technologies Used
+## 🚀 Visão Geral
 
-HTML5, CSS3, JavaScript: Core web technologies for structure, styling, and interactivity.
-Font Awesome: Icons for social media and tech stack.
-Google Fonts (Poppins): Clean and modern typography.
-Lottie Animations: Lightweight animations for enhanced user experience.
-External Libraries:
-Font Awesome CDN for icons.
-DotLottie Player for animations.
+O portfólio é uma aplicação moderna, responsiva e de página única, que destaca minha expertise em tecnologias como PHP, Laravel, ReactJS e Python. Contém seções para habilidades, experiência, formação, projetos open source, grandes projetos, certificações e informações de contato.
 
+### 🔑 Principais Funcionalidades
 
-CSS Framework: Custom styles in style.css for layout and design.
+- **Design Responsivo**: Otimizado para todos os dispositivos.
+- **UI Interativa**: Animações Lottie para visuais envolventes.
+- **Alternância de Tema**: Modo claro/escuro.
+- **Integração com Redes Sociais**: GitHub, LinkedIn etc.
+- **Currículo para Download**: Versão PDF disponível.
+- **Projetos Open Source**: Exibição dos repositórios GitHub.
+- **SEO Otimizado**: Meta tags para Open Graph e Twitter Cards.
 
-📂 Project Structure
-├── index.html          # Main HTML file
-├── style.css           # Custom CSS for styling
-├── script.js           # JavaScript for interactivity (e.g., theme toggle)
-├── resume.pdf          # Downloadable resume
-├── favicon.ico         # Favicon
-├── apple-touch-icon.png # Apple touch icon
-├── manifest.json       # Web app manifest
-├── profile.png         # Profile photo
-├── logosede.png        # Unimed logo
-├── puc.png             # PUC Minas logo
-├── unesc.gif           # UNESC logo
-├── fatec.png           # Fatec logo
-├── linkedin.png        # LinkedIn logo
+## 🛠️ Tecnologias Utilizadas
 
-🖥️ Sections
+- **HTML5, CSS3, JavaScript**: Estrutura, estilo e interatividade.
+- **Font Awesome**: Ícones sociais e da stack.
+- **Google Fonts (Poppins)**: Tipografia moderna.
+- **Lottie Animations**: Animações leves e responsivas.
 
-Intro: Brief introduction with social media links and call-to-action buttons.
-Skills: Highlights technical skills with icons (HTML, CSS, JS, React, PHP, Laravel, Python, Docker, AWS).
-Proficiency: Visual progress bars for frontend, backend, and programming skills.
-Education: Academic background with details on degrees and certifications.
-Experience: Work history with roles at Unimed Regional Jaú and Centermaq.
-Open Source Projects: Links to GitHub repositories with project descriptions.
-Big Projects: Showcases major projects like the Portal de Vagas and Biometric Verification System.
-Achievements: Certifications from LinkedIn Learning and Fatec.
-Contact: Contact information with social media links and a profile photo.
+#### Bibliotecas Externas
 
-🚀 Getting Started
-Prerequisites
+- CDN do Font Awesome
+- DotLottie Player
 
-A modern web browser (e.g., Chrome, Firefox, Safari).
-A code editor (e.g., VS Code) for customization.
-Optional: A local server (e.g., Live Server extension or Node.js http-server) for development.
+#### Framework CSS
 
-Installation
+- Estilos personalizados em `style.css`
 
-Clone or download this repository:
+## 📂 Estrutura do Projeto
+
+```
+├── index.html              # HTML principal
+├── style.css               # Estilos personalizados
+├── script.js               # Scripts JS (ex: alternância de tema)
+├── resume.pdf              # Currículo para download
+├── favicon.ico             # Favicon
+├── apple-touch-icon.png    # Ícone para iOS
+├── manifest.json           # Manifesto PWA
+├── profile.png             # Foto de perfil
+├── logosede.png            # Logo da Unimed
+├── puc.png                 # Logo da PUC Minas
+├── unesc.gif               # Logo da UNESC
+├── fatec.png               # Logo da Fatec
+├── linkedin.png            # Logo do LinkedIn
+```
+
+## 🖥️ Seções
+
+- **Intro**: Introdução com links sociais e botões de ação.
+- **Skills**: Habilidades com ícones (HTML, CSS, JS, React, PHP, Laravel, Python, Docker, AWS).
+- **Proficiency**: Barras de progresso para frontend, backend e lógica.
+- **Education**: Formação acadêmica e certificações.
+- **Experience**: Histórico de trabalho (Unimed Regional Jaú, Centermaq).
+- **Open Source Projects**: Repositórios GitHub.
+- **Big Projects**: Projetos maiores como o Portal de Vagas.
+- **Achievements**: Certificados LinkedIn Learning e Fatec.
+- **Contact**: Informações e foto de perfil.
+
+## 🚀 Começando
+
+### Pré-requisitos
+
+- Navegador moderno (Chrome, Firefox, Safari).
+- Editor de código (VS Code recomendado).
+- Opcional: Servidor local (ex: Live Server ou http-server do Node.js).
+
+### Instalação
+
+Clone o repositório:
+
 ```bash
 git clone https://github.com/marcospaulobez/portfolio.git
 ```
 
+Navegue até o diretório:
 
-Navigate to the project directory:cd portfolio
+```bash
+cd portfolio
+```
 
+Abra o `index.html` diretamente ou use servidor local:
 
-Open index.html in a browser or use a local server:npx http-server
+```bash
+npx http-server
+```
 
-Then visit http://localhost:8080.
+Acesse em `http://localhost:8080`.
 
-Customization
+### Personalização
 
-Update index.html with your personal details (e.g., name, social media links, project URLs).
-Modify style.css to change colors, fonts, or layout.
-Update script.js for custom JavaScript functionality (e.g., theme toggle logic).
-Replace images (profile.png, logos) with your own assets.
+- Edite `index.html` com seus dados pessoais.
+- Altere `style.css` para modificar cores ou layout.
+- Atualize `script.js` com funcionalidades customizadas.
+- Substitua as imagens por seus próprios arquivos.
 
-🌐 Deployment
-To deploy the website:
+## 🌐 Deploy
 
-Host the files on a web server (e.g., Netlify, Vercel, or GitHub Pages).
-Update the og:url and twitter:url meta tags in index.html with your domain.
-Ensure all assets (images, CSS, JS) are correctly linked.
+Para publicar o site:
 
-Example deployment with Netlify:
+- Hospede os arquivos (Netlify, Vercel, GitHub Pages).
+- Atualize as meta tags `og:url` e `twitter:url` no `index.html`.
+- Verifique se todos os arquivos estão corretamente vinculados.
 
-Push the repository to GitHub.
-Connect your repository to Netlify via the Netlify dashboard.
-Deploy the site and access it via the provided URL.
+### Exemplo com Netlify:
 
-📜 Credits
+1. Faça push no GitHub.
+2. Conecte no painel do Netlify.
+3. Faça o deploy e acesse pelo link gerado.
 
-Theme: Adapted from developerFolio.
-Animations: Powered by LottieFiles.
-Icons: Font Awesome.
-Fonts: Google Fonts (Poppins).
+## 📜 Créditos
 
-📧 Contact
+- **Tema**: Adaptado de developerFolio.
+- **Animações**: LottieFiles.
+- **Ícones**: Font Awesome.
+- **Fonte**: Google Fonts (Poppins).
 
-Email: rockbez@hotmail.com
-GitHub: marcospaulobez
-LinkedIn: Marcos Paulo Birolo
+## 📧 Contato
 
-Feel free to reach out for collaboration or inquiries!
-❤️ Acknowledgments
-Made with ❤️ by Marcos Paulo. Special thanks to the open-source community and the tools that made this project possible.
+- **Email**: rockbez@hotmail.com  
+- **GitHub**: [marcospaulobez](https://github.com/marcospaulobez)  
+- **LinkedIn**: [Marcos Paulo Birolo](https://linkedin.com/in/marcospaulobez)
 
-🔒 Direitos Autorais © 2025 Marcos Paulo Bez Birolo.  
+Fique à vontade para entrar em contato para colaborações ou dúvidas!
+
+---
+
+## ❤️ Agradecimentos
+
+Feito com ❤️ por Marcos Paulo. Agradecimentos à comunidade open source e ferramentas que tornaram este projeto possível.
+
+## 🔒 Direitos Autorais © 2025 Marcos Paulo Bez Birolo
+
 Todos os direitos reservados.
 
-📄 Licença
-Este projeto está licenciado sob os termos da Licença MIT – consulte o arquivo LICENSE para mais detalhes.
+## 📄 Licença
+
+Licenciado sob a [MIT License](LICENSE).
