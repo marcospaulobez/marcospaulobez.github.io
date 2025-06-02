@@ -1479,3 +1479,18 @@ input:checked + .slider .icon {
     border-radius: 6px;
   }
 }
+
+
+.project-gallery img {
+  
+    height: 100px;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+
+
+  .project-gallery img:hover {
+  transform: rotateX(8deg) rotateY(-8deg) scale(1.05);
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
