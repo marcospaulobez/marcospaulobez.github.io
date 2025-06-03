@@ -1189,7 +1189,7 @@ input:checked + .slider .icon {
 .highlight-role {
   font-size: 1.4rem;
   font-weight: 600;
-  color: #20062b;
+  color: #4fcdff;
   margin-bottom: 10px;
 }
 
@@ -1201,7 +1201,7 @@ input:checked + .slider .icon {
 }
 
 .highlight {
-  color: #20062b;
+  color: #4fcdff;
   font-weight: 600;
 }
 
