@@ -10,7 +10,7 @@ body {
 
 .main-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
  padding: 10px 20px;
   background: linear-gradient(135deg, #d0e1ea, #b5cdd9, #99b9c8);
