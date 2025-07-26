@@ -1339,6 +1339,36 @@ section h2 .material-icons {
   .nav-menu {
     display: none;
   }
+
+  .nav-menu.active {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 90px; /* Ajuste conforme sua header */
+    left: 0;
+    right: 0;
+    background: var(--bg-primary);
+    padding: 1rem;
+    z-index: 1000;
+    animation: fadeIn 0.3s ease-out;
+}
+
+/* Animar a abertura do menu */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Mostrar normalmente em desktop */
+@media (min-width: 769px) {
+    .nav-menu {
+        display: flex;
+        position: static;
+        flex-direction: row;
+        background: transparent;
+        padding: 0;
+    }
+}
   
   .menu-toggle {
     display: block;
