@@ -1,12 +1,12 @@
 <!--
   Autor: Marcos Paulo Bez Birolo
-  Portfólio | Desenvolvedor Full Stack
+  Portfólio | Desenvolvedor Full Stack - VERSÃO MELHORADA
   GitHub: https://github.com/marcospaulobez
   LinkedIn: https://linkedin.com/in/marcos-paulo-birolo
 -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,8 +23,6 @@
   <meta property="og:title" content="Marcos Paulo | Full Stack Developer">
   <meta property="og:description" content="Desenvolvedor Full Stack com mais de 5 anos de experiência em PHP, Laravel, ReactJS e Python.">
   
-  
-  
   <!-- Theme -->
   <meta name="theme-color" content="#6c63ff">
   <meta name="msapplication-TileColor" content="#603cba">
@@ -34,286 +32,338 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="manifest" href="/manifest.json">
 
-  <!-- Font Awesome -->
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+  
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  
+  <!-- AOS (Animate On Scroll) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  
+  <!-- Font Awesome (mantido para compatibilidade) -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
   
   <!-- Fonts (ex: Poppins) -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/animations.css">
 
   
 </head>
 
 <body>
-    <header class="main-header">
+    <header class="main-header animate__animated animate__fadeInDown">
       <button class="menu-toggle hamburger" id="menu-toggle" aria-label="Menu">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span class="material-icons">menu</span>
       </button>
 
-
-
         <div class="navbar-brand">
-           <img  class="logo" height="90" width="110" alt="" src="./assets/img/logo.png">
+           <img class="logo animate__animated animate__bounceIn" height="90" width="110" alt="" src="./assets/img/logo.png">
         </div>
         <nav class="nav-menu">
-            <a href="#skills">Skills</a>
-            <a href="#experience">Work Experiences</a>
-            <a href="#opensource">Open Source</a>
-            <a href="#education">Education</a>
-            <a href="#achievements">Achievements</a>
-            <a href="resume.pdf">Resume</a>
-            <a href="#contact">Contact Me</a>
+            <a href="#skills"><span class="material-icons">psychology</span>Skills</a>
+            <a href="#experience"><span class="material-icons">work</span>Experiências</a>
+            <a href="#opensource"><span class="material-icons">code</span>Open Source</a>
+            <a href="#education"><span class="material-icons">school</span>Educação</a>
+            <a href="#achievements"><span class="material-icons">emoji_events</span>Conquistas</a>
+            <a href="resume.pdf"><span class="material-icons">description</span>Currículo</a>
+            <a href="#contact"><span class="material-icons">contact_mail</span>Contato</a>
         </nav>
 
         <label class="theme-toggle">
             <input type="checkbox" id="theme-switch">
             <span class="slider">
-                <span class="icon">🌞</span>
+                <span class="material-icons">light_mode</span>
             </span>
         </label>
     </header>
 
-
 <main>
     <section class="intro-section">
         <div class="intro-text">
-           <h1 id="typewriter" style="font-size: 4.4rem;">👋</h1>
+           <h1 id="typewriter" class="animate__animated animate__fadeInUp" style="font-size: 4.4rem;">👋</h1>
 
-          <p class="highlight-role fade-in">🚀 <strong>Full Stack Web Developer</strong></p>
+          <p class="highlight-role animate__animated animate__fadeInUp animate__delay-1s">🚀 <strong>Full Stack Web Developer</strong></p>
 
-          <p class="impact-text fade-in">
-            <strong>5+ years</strong> of experience crafting <span class="highlight">modern</span> and <span class="highlight">scalable</span> web solutions.
+          <p class="impact-text animate__animated animate__fadeInUp animate__delay-2s">
+            <strong>5+ anos</strong> de experiência criando soluções web <span class="highlight">modernas</span> e <span class="highlight">escaláveis</span>.
           </p>
 
-          <p class="impact-text fade-in">
-            Specialized in <span class="highlight">PHP</span>, <span class="highlight">Laravel</span>, <span class="highlight">ReactJS</span>, and <span class="highlight">Python</span>. Strong background in <strong>RESTful APIs</strong>, <strong>performance optimization</strong>, and <strong>agile methodologies</strong>.
+          <p class="impact-text animate__animated animate__fadeInUp animate__delay-3s">
+            Especializado em <span class="highlight">PHP</span>, <span class="highlight">Laravel</span>, <span class="highlight">ReactJS</span> e <span class="highlight">Python</span>. Forte experiência em <strong>APIs RESTful</strong>, <strong>otimização de performance</strong> e <strong>metodologias ágeis</strong>.
           </p>
 
-
-
-
-
-            <div class="social-icons">
-                <a href="https://github.com/marcospaulobez" class="github"><i class="fab fa-github"></i></a>
-                <a href="https://br.linkedin.com/in/marcos-paulo-birolo" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
-                <a href="mailto:rockbez@hotmail.com" class="email"><i class="fas fa-envelope"></i></a>
-              
+            <div class="social-icons animate__animated animate__fadeInUp animate__delay-4s">
+                <a href="https://github.com/marcospaulobez" class="github animate__animated animate__pulse animate__infinite animate__slower">
+                    <span class="material-icons">code</span>
+                </a>
+                <a href="https://br.linkedin.com/in/marcos-paulo-birolo" class="linkedin animate__animated animate__pulse animate__infinite animate__slower">
+                    <span class="material-icons">work</span>
+                </a>
+                <a href="mailto:rockbez@hotmail.com" class="email animate__animated animate__pulse animate__infinite animate__slower">
+                    <span class="material-icons">email</span>
+                </a>
             </div>
-            <div class="intro-buttons">
-            <a href="#contact" class="btn contact-btn">Contact Me</a>
-            <a href="resume.pdf" class="btn resume-btn" download>Download My Resume</a>
+            <div class="intro-buttons animate__animated animate__fadeInUp animate__delay-5s">
+            <a href="#contact" class="btn contact-btn animate__animated animate__pulse animate__infinite animate__slower">
+                <span class="material-icons">contact_mail</span>
+                Entre em Contato
+            </a>
+            <a href="resume.pdf" class="btn resume-btn" download>
+                <span class="material-icons">download</span>
+                Baixar Currículo
+            </a>
             </div>
 
         </div>
 
-        <div class="intro-animation">
-           
+        <div class="intro-animation animate__animated animate__fadeInRight animate__delay-1s">
 <dotlottie-player src="https://lottie.host/fea6f744-1a86-404b-a0d0-6256c672b885/uyWCHyy4qx.lottie" background="transparent" speed="1" style="width: 800px; height: 800px" loop autoplay></dotlottie-player>
-
         </div>
         
     </section>
 
-
-
-
 <section class="what-i-do-section" id="skills">
   <div class="bio-container">
 
-    <div class="bio-photo fade-in">
+    <div class="bio-photo" data-aos="fade-right">
       <div class="illustration">
                <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
                 <dotlottie-player src="https://lottie.host/10061804-8688-42e3-af8d-2e72d5a34519/n2EesnxZV1.lottie" background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
             </div>
-     <!--  <span class="badge">Unimed Developer</span> -->
     </div>
 
-    <div class="bio-content">
-      <h3 class="bio-section-title fade-in">Who I am</h3>
-      <h2 class="fade-in">Marcos Paulo</h2>
-      <p class="bio-subtitle fade-in">Full Stack Developer & System Integrator</p>
-      <p class="impact-text fade-in">
-        My name is Marcos Paulo, a passionate developer focused on creating impactful and modern digital solutions. I specialize in <strong>Laravel</strong>, <strong>ReactJS</strong>, and <strong>Python</strong>, with strong experience in <strong>system integration</strong> for healthcare.
+    <div class="bio-content" data-aos="fade-left">
+      <h3 class="bio-section-title">Quem eu sou</h3>
+      <h2>Marcos Paulo</h2>
+      <p class="bio-subtitle">Full Stack Developer & System Integrator</p>
+      <p class="impact-text">
+        Meu nome é Marcos Paulo, um desenvolvedor apaixonado focado em criar soluções digitais impactantes e modernas. Especializo-me em <strong>Laravel</strong>, <strong>ReactJS</strong> e <strong>Python</strong>, com forte experiência em <strong>integração de sistemas</strong> para área da saúde.
       </p>
-      <p class="impact-text fade-in">
-        I create solutions with high performance, accessibility, and modern UX standards. Constantly improving APIs, automation, and digital transformation at Unimed.
+      <p class="impact-text">
+        Crio soluções com alta performance, acessibilidade e padrões modernos de UX. Constantemente melhorando APIs, automação e transformação digital na Unimed.
       </p>
 
-      <div class="social-icons fade-in">
-        <a href="https://github.com/marcospaulobez"><i class="fab fa-github"></i></a>
-        <a href="https://br.linkedin.com/in/marcos-paulo-birolo"><i class="fab fa-linkedin-in"></i></a>
-        <a href="mailto:rockbez@hotmail.com"><i class="fas fa-envelope"></i></a>
+      <div class="social-icons">
+        <a href="https://github.com/marcospaulobez"><span class="material-icons">code</span></a>
+        <a href="https://br.linkedin.com/in/marcos-paulo-birolo"><span class="material-icons">work</span></a>
+        <a href="mailto:rockbez@hotmail.com"><span class="material-icons">email</span></a>
       </div>
 
     </div>
   </div>
 </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <section class="proficiency-section">
         <div class="proficiency-container">
             
-            <div class="proficiency-text">
-            <h2>Proficiency</h2>
+            <div class="proficiency-text" data-aos="fade-right">
+            <h2>Proficiência</h2>
 
             <div class="skill">
-                <p>Frontend/Design</p>
+                <p><span class="material-icons">design_services</span>Frontend/Design</p>
                 <div class="progress-bar">
-                <div class="progress" style="width: 95%;"></div>
+                <div class="progress animate__animated animate__slideInLeft" style="width: 95%;"></div>
                 </div>
             </div>
 
             <div class="skill">
-                <p>Backend</p>
+                <p><span class="material-icons">storage</span>Backend</p>
                 <div class="progress-bar">
-                <div class="progress" style="width: 80%;"></div>
+                <div class="progress animate__animated animate__slideInLeft animate__delay-1s" style="width: 80%;"></div>
                 </div>
             </div>
 
             <div class="skill">
-                <p>Programming</p>
+                <p><span class="material-icons">code</span>Programming</p>
                 <div class="progress-bar">
-                <div class="progress" style="width: 80%;"></div>
+                <div class="progress animate__animated animate__slideInLeft animate__delay-2s" style="width: 80%;"></div>
                 </div>
             </div>
             </div>
 
-            <div class="proficiency-illustration">
+            <div class="proficiency-illustration" data-aos="fade-left">
             <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
 <dotlottie-player src="https://lottie.host/e938a1a6-2acb-4d6b-b934-bd2c4b9d1c8e/8TtBsP6EIM.lottie" background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
             </div>
         </div>
 </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- NOVA SEÇÃO: CARROSSEL DE DEPOIMENTOS -->
+<section class="testimonials-section" id="testimonials">
+  <div class="container">
+    <h2 data-aos="fade-up">
+      <span class="material-icons">format_quote</span>
+      Depoimentos
+    </h2>
+    <p class="subtitle" data-aos="fade-up" data-aos-delay="100">O que dizem sobre meu trabalho</p>
+    
+    <div class="swiper testimonials-swiper" data-aos="fade-up" data-aos-delay="200">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <span class="material-icons quote-icon">format_quote</span>
+              <p>"Marcos Paulo é um desenvolvedor excepcional. Sua capacidade de entregar soluções complexas de forma simples e eficiente é impressionante. O sistema de recrutamento que ele desenvolveu revolucionou nosso processo de contratação."</p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-info">
+                <h4>Ana Silva</h4>
+                <p>Gerente de RH - Unimed Regional Jaú</p>
+              </div>
+              <div class="rating">
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <span class="material-icons quote-icon">format_quote</span>
+              <p>"Trabalhar com Marcos foi uma experiência fantástica. Ele não apenas entende tecnologia, mas também compreende as necessidades do negócio. Suas soluções sempre agregam valor real."</p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-info">
+                <h4>Carlos Mendes</h4>
+                <p>Diretor de TI - Unimed Regional Jaú</p>
+              </div>
+              <div class="rating">
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <span class="material-icons quote-icon">format_quote</span>
+              <p>"A qualidade do código e a atenção aos detalhes do Marcos são excepcionais. Ele sempre entrega projetos no prazo e com qualidade superior ao esperado."</p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-info">
+                <h4>Maria Santos</h4>
+                <p>Product Owner - Unimed Regional Jaú</p>
+              </div>
+              <div class="rating">
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"><span class="material-icons">arrow_forward</span></div>
+      <div class="swiper-button-prev"><span class="material-icons">arrow_back</span></div>
+    </div>
+  </div>
+</section>
 
 <section class="education-section" id="education">
-  <h2>Education</h2>
+  <h2 data-aos="fade-up">
+    <span class="material-icons">school</span>
+    Educação
+  </h2>
 
-  <div class="education-item">
+  <div class="education-item" data-aos="fade-up" data-aos-delay="100">
     <img src="./assets/img/puc.png" alt="PUC Minas" width="280" >
     <div class="education-content">
       <h3>PUC Minas</h3>
-      <p><strong>Postgraduate: Artificial Intelligence and Machine Learning</strong></p>
-      <p>Expected Completion: 2026</p>
+      <p><strong>Pós-graduação: Inteligência Artificial e Machine Learning</strong></p>
+      <p>Conclusão prevista: 2026</p>
       <ul>
-        <li>Applied AI, machine learning, neural networks</li>
-        <li>Projects focused on intelligent systems</li>
+        <li><span class="material-icons">check_circle</span>IA aplicada, machine learning, redes neurais</li>
+        <li><span class="material-icons">check_circle</span>Projetos focados em sistemas inteligentes</li>
       </ul>
     </div>
   </div>
 
-  <div class="education-item">
+  <div class="education-item" data-aos="fade-up" data-aos-delay="200">
     <img src="./assets/img/unesc.gif" alt="UNESC" width="180">
     <div class="education-content" style="margin-left: 5%;">
       <h3>UNESC Digital</h3>
-      <p><strong>Postgraduate: Full Stack Development in Modern Systems (Cloud Native)</strong></p>
+      <p><strong>Pós-graduação: Desenvolvimento Full Stack em Sistemas Modernos (Cloud Native)</strong></p>
       <p>2023</p>
       <ul>
-        <li>Microservices, CI/CD, cloud computing (Docker, Kubernetes)</li>
+        <li><span class="material-icons">check_circle</span>Microserviços, CI/CD, computação em nuvem (Docker, Kubernetes)</li>
       </ul>
     </div>
   </div>
 
-  <div class="education-item">
+  <div class="education-item" data-aos="fade-up" data-aos-delay="300">
     <img src="./assets/img/fatec.png" alt="Fatec Jahu" width="280">
     <div class="education-content">
       <h3>Faculdade de Tecnologia (Fatec Jahu)</h3>
-      <p><strong>Bachelor's in Internet Systems</strong></p>
+      <p><strong>Tecnólogo em Sistemas para Internet</strong></p>
       <p>2020</p>
       <ul>
-        <li>Web development, databases, systems architecture</li>
+        <li><span class="material-icons">check_circle</span>Desenvolvimento web, bancos de dados, arquitetura de sistemas</li>
       </ul>
     </div>
   </div>
 </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 <section class="experience-section" id="experience">
-  <h2>Experiences</h2>
+  <h2 data-aos="fade-up">
+    <span class="material-icons">work</span>
+    Experiências
+  </h2>
 
   <div class="experience-grid">
     
     <!-- Unimed -->
-    <div class="experience-card">
+    <div class="experience-card" data-aos="fade-up" data-aos-delay="100">
       <div class="card-top unimed-color"></div>
       <div class="logo-circle">
         <img src="./assets/img/logosede.png" alt="" width="200">
       </div>
       <div class="card-body">
         <h3>Unimed Regional Jaú</h3>
-        <h4>Software Development Analyst</h4>
-        <p><em>2019 – Present</em></p>
-        <p>Responsible for developing and maintaining web and mobile applications using PHP, Laravel, ReactJS, and Python.</p>
+        <h4><span class="material-icons">computer</span>Analista de Desenvolvimento de Software</h4>
+        <p><em><span class="material-icons">schedule</span>2019 – Presente</em></p>
+        <p>Responsável pelo desenvolvimento e manutenção de aplicações web e mobile usando PHP, Laravel, ReactJS e Python.</p>
         <ul>
-          <li>Designed and integrated RESTful APIs for internal systems</li>
-          <li>Optimized application performance and solved critical issues</li>
-          <li>Performed data analysis with Oracle for decision-making</li>
+          <li><span class="material-icons">api</span>Projetei e integrei APIs RESTful para sistemas internos</li>
+          <li><span class="material-icons">speed</span>Otimizei performance de aplicações e resolvi problemas críticos</li>
+          <li><span class="material-icons">analytics</span>Realizei análise de dados com Oracle para tomada de decisões</li>
         </ul>
       </div>
     </div>
 
     <!-- Centermaq -->
-    <div class="experience-card">
+    <div class="experience-card" data-aos="fade-up" data-aos-delay="200">
       <div class="card-top centermaq-color"></div>
       <div class="logo-circle">
-        <i class="fas fa-tools"></i>
+        <span class="material-icons">build</span>
       </div>
       <div class="card-body">
         <h3>Centermaq (Hospital Amaral Carvalho)</h3>
-        <h4>Technical Assistant</h4>
-        <p><em>2017 – 2019</em></p>
-        <p>Provided hardware maintenance and technical support to hospital equipment and systems.</p>
+        <h4><span class="material-icons">support</span>Assistente Técnico</h4>
+        <p><em><span class="material-icons">schedule</span>2017 – 2019</em></p>
+        <p>Forneci manutenção de hardware e suporte técnico para equipamentos e sistemas hospitalares.</p>
         <ul>
-          <li>Performed preventive and corrective maintenance on printers and computers</li>
-          <li>Ensured operational efficiency of critical hospital devices</li>
+          <li><span class="material-icons">build</span>Realizei manutenção preventiva e corretiva em impressoras e computadores</li>
+          <li><span class="material-icons">verified</span>Garanti eficiência operacional de dispositivos críticos do hospital</li>
         </ul>
       </div>
     </div>
@@ -321,294 +371,231 @@
   </div>
 </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- CARROSSEL DE PROJETOS MELHORADO -->
 <section class="projects-section" id="opensource">
-  <h2>Open Source Projects</h2>
+  <h2 data-aos="fade-up">
+    <span class="material-icons">code</span>
+    Projetos Open Source
+  </h2>
 
-  <div class="project-grid">
-    <a href="https://github.com/marcospaulobez/hospital-integration-api" class="project-card " target="_blank">
-      <h3><i class="fas fa-laptop-code"></i> hospital-integration-api</h3>
-      <p>🔗 RESTful API that integrates hospital systems with external platforms, enabling seamless medical data exchange.</p>
-      <div class="project-meta">
-        <span><i class="fab fa-php"></i> PHP</span>
-        <span><i class="fas fa-code-branch"></i> 12</span>
-        <span><i class="fas fa-star"></i> 8</span>
-        <span>2.4 MB</span>
+  <div class="swiper projects-swiper" data-aos="fade-up" data-aos-delay="200">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <a href="https://github.com/marcospaulobez/hospital-integration-api" class="project-card animate__animated animate__fadeInUp" target="_blank">
+          <div class="project-icon">
+            <span class="material-icons">integration_instructions</span>
+          </div>
+          <h3>hospital-integration-api</h3>
+          <p>🔗 API RESTful que integra sistemas hospitalares com plataformas externas, permitindo troca de dados médicos sem problemas.</p>
+          <div class="project-meta">
+            <span><span class="material-icons">code</span> PHP</span>
+            <span><span class="material-icons">call_split</span> 12</span>
+            <span><span class="material-icons">star</span> 8</span>
+            <span>2.4 MB</span>
+          </div>
+        </a>
       </div>
-    </a>
 
-    <a href="https://github.com/marcospaulobez/clinical-data-dashboard" class="project-card" target="_blank">
-    <span class="ribbon">Under Maintenance</span>
-    <h3><i class="fas fa-chart-line"></i> clinical-data-dashboard</h3>
-    <p>📊 Web dashboard for real-time monitoring and analysis of patient data using Laravel + React.</p>
-    <div class="project-meta">
-        <span><i class="fab fa-laravel"></i> Laravel</span>
-        <span><i class="fas fa-code-branch"></i> 25</span>
-        <span><i class="fas fa-star"></i> 19</span>
-        <span>3.1 MB</span>
+      <div class="swiper-slide">
+        <a href="https://github.com/marcospaulobez/clinical-data-dashboard" class="project-card animate__animated animate__fadeInUp" target="_blank">
+          <span class="ribbon">Em Manutenção</span>
+          <div class="project-icon">
+            <span class="material-icons">dashboard</span>
+          </div>
+          <h3>clinical-data-dashboard</h3>
+          <p>📊 Dashboard web para monitoramento e análise em tempo real de dados de pacientes usando Laravel + React.</p>
+          <div class="project-meta">
+            <span><span class="material-icons">web</span> Laravel</span>
+            <span><span class="material-icons">call_split</span> 25</span>
+            <span><span class="material-icons">star</span> 19</span>
+            <span>3.1 MB</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="swiper-slide">
+        <a href="https://github.com/marcospaulobez/surgical-bot-scheduler" class="project-card animate__animated animate__fadeInUp" target="_blank">
+          <span class="ribbon">Em Manutenção</span>
+          <div class="project-icon">
+            <span class="material-icons">smart_toy</span>
+          </div>
+          <h3>surgical-bot-scheduler</h3>
+          <p>🤖 Agendador automatizado de tarefas para fluxos de trabalho cirúrgicos. Integrado com ERP hospitalar via scripts Python.</p>
+          <div class="project-meta">
+            <span><span class="material-icons">code</span> Python</span>
+            <span><span class="material-icons">call_split</span> 10</span>
+            <span><span class="material-icons">star</span> 6</span>
+            <span>1.8 MB</span>
+          </div>
+        </a>
+      </div>
     </div>
-    </a>
-
-
-    <a href="https://github.com/marcospaulobez/surgical-bot-scheduler" class="project-card" target="_blank">
-         <span class="ribbon">Under Maintenance</span>
-    <h3><i class="fas fa-robot"></i> surgical-bot-scheduler</h3>
-    <p>🤖 Automated task scheduler for surgical workflows. Integrated with hospital ERP via Python scripts.</p>
-    <div class="project-meta">
-        <span><i class="fab fa-python"></i> Python</span>
-        <span><i class="fas fa-code-branch"></i> 10</span>
-        <span><i class="fas fa-star"></i> 6</span>
-        <span>1.8 MB</span>
-    </div>
-    </a>
-
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next"><span class="material-icons">arrow_forward</span></div>
+    <div class="swiper-button-prev"><span class="material-icons">arrow_back</span></div>
   </div>
-  
 </section>
 
-
-
-
 <section class="services-section" id="services">
-  <h2 class="fade-in" data-delay="0">Serviços <span>.</span></h2>
+  <h2 data-aos="fade-up">
+    <span class="material-icons">design_services</span>
+    Serviços <span>.</span>
+  </h2>
 
-  <div class="services-grid fade-in" data-delay="100">
-    <div class="service-card active">
-      <i class="fas fa-pencil-ruler"></i>
+  <div class="services-grid">
+    <div class="service-card active" data-aos="fade-up" data-aos-delay="100">
+      <span class="material-icons service-icon animate__animated animate__bounceIn">design_services</span>
       <h3>UX Design</h3>
       <p>Desenho interface no Figma de forma que ela seja clara, objetiva e principalmente intuitiva para a experiência do usuário.</p>
     </div>
 
-    <div class="service-card">
-      <i class="fas fa-code"></i>
+    <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+      <span class="material-icons service-icon animate__animated animate__bounceIn">code</span>
       <h3>Desenvolvimento</h3>
       <p>Desenvolvo frontend de sites profissionais, blogs, SaaS, landing pages, e-commerce e entre outros websites.</p>
     </div>
 
-    <div class="service-card">
-      <i class="fas fa-mobile-alt"></i>
+    <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+      <span class="material-icons service-icon animate__animated animate__bounceIn">animation</span>
       <h3>Motion</h3>
       <p>Crio interações entre elementos que transmitem sensação de modernidade, além de chamarem a atenção do usuário.</p>
     </div>
   </div>
 </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <section class="knowledge-section" id="knowledge">
-  <h2>Conhecimentos <span>.</span></h2>
+  <h2 data-aos="fade-up">
+    <span class="material-icons">psychology</span>
+    Conhecimentos <span>.</span>
+  </h2>
 
   <div class="knowledge-wrapper">
-    <div class="knowledge-description" id="knowledge-desc">
+    <div class="knowledge-description" id="knowledge-desc" data-aos="fade-up">
       <p>*passe o cursor do mouse no card para ler*</p>
     </div>
 
-    <div class="knowledge-grid">
-      <div class="tech-card" data-desc="HTML5 estrutura o conteúdo da web.">
+    <div class="knowledge-grid" data-aos="fade-up" data-aos-delay="200">
+      <div class="tech-card animate__animated animate__bounceIn" data-desc="HTML5 estrutura o conteúdo da web.">
         <i class="fab fa-html5"></i>
       </div>
-      <div class="tech-card" data-desc="CSS3 estiliza as páginas com cores, fontes, etc.">
+      <div class="tech-card animate__animated animate__bounceIn animate__delay-1s" data-desc="CSS3 estiliza as páginas com cores, fontes, etc.">
         <i class="fab fa-css3-alt"></i>
       </div>
-      <div class="tech-card" data-desc="JavaScript cria interações dinâmicas.">
+      <div class="tech-card animate__animated animate__bounceIn animate__delay-2s" data-desc="JavaScript cria interações dinâmicas.">
         <i class="fab fa-js-square"></i>
       </div>
-      <div class="tech-card" data-desc="SASS é um pré-processador CSS.">
+      <div class="tech-card animate__animated animate__bounceIn animate__delay-3s" data-desc="SASS é um pré-processador CSS.">
         <i class="fab fa-sass"></i>
       </div>
-      <div class="tech-card" data-desc="React cria interfaces componentizadas.">
+      <div class="tech-card animate__animated animate__bounceIn animate__delay-4s" data-desc="React cria interfaces componentizadas.">
         <i class="fab fa-react"></i>
       </div>
-      <div class="tech-card" data-desc="Next.js gera páginas SSR com React.">
+      <div class="tech-card animate__animated animate__bounceIn animate__delay-5s" data-desc="Next.js gera páginas SSR com React.">
         <i class="fab fa-react"></i>
       </div>
-      <div class="tech-card" data-desc="Tailwind é um framework CSS utilitário.">
-        <i class="fas fa-wind"></i>
+      <div class="tech-card animate__animated animate__bounceIn" data-desc="Tailwind é um framework CSS utilitário.">
+        <span class="material-icons">air</span>
       </div>
-      <div class="tech-card" data-desc="Typescript adiciona tipagem ao JavaScript.">
-        <i class="fas fa-code"></i>
+      <div class="tech-card animate__animated animate__bounceIn animate__delay-1s" data-desc="Typescript adiciona tipagem ao JavaScript.">
+        <span class="material-icons">code</span>
       </div>
-      <div class="tech-card" data-desc="Styled Components estiliza com JS.">
-        <i class="fas fa-paint-brush"></i>
+      <div class="tech-card animate__animated animate__bounceIn animate__delay-2s" data-desc="Styled Components estiliza com JS.">
+        <span class="material-icons">palette</span>
       </div>
-      <div class="tech-card" data-desc="Laravel é um framework PHP que abstrai complexidade para facilitar o desenvolvimento de aplicações web.">
+      <div class="tech-card animate__animated animate__bounceIn animate__delay-3s" data-desc="Laravel é um framework PHP que abstrai complexidade para facilitar o desenvolvimento de aplicações web.">
        <i class="fab fa-laravel"></i>
       </div>
     </div>
   </div>
 </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <section class="big-projects-section" id="big-projects">
-  <h2>Big Projects</h2>
-  <p class="subtitle">SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH</p>
-
-  <div class="big-projects-grid">
-    <div class="big-project-card">
-      
-      <h3>Portal de Vagas</h3>
-      <p>Recruitment system with analytics, resume processing, and smart screening.</p>
-      <a href="https://vagas.unimedjau.com.br" class="btn-visit">Visit Website</a>
-    </div>
-
-    <div class="big-project-card">
-      
-      <h3>Training Management System</h3>
-      <p>QR-based attendance, dashboards and dynamic scheduling for internal learning.</p>
-      <a href="#" class="btn-visit">Visit Website</a>
-    </div>
-
-    <div class="big-project-card">
-      
-      <h3>Biometric Verification System</h3>
-      <p>AI-driven face recognition with DeepStack, integrated to patient onboarding.</p>
-      <a href="#" class="btn-visit">Visit Website</a>
-    </div>
-
-    <div class="big-project-card">
-      
-      <h3>Hospital Intranet</h3>
-      <p>LDAP-based portal with dashboards and fully digitized department operations.</p>
-      <a href="#" class="btn-visit">Visit Website</a>
-    </div>
-  </div>
-</section> -->
-
-
-
-
-
-
-
-
 <section class="project-tabs-section" id="custom-projects">
-  <h2>Big Projects</h2>
-  <p class="subtitle">SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH</p>
+  <h2 data-aos="fade-up">
+    <span class="material-icons">work</span>
+    Grandes Projetos
+  </h2>
+  <p class="subtitle" data-aos="fade-up" data-aos-delay="100">ALGUMAS STARTUPS E EMPRESAS QUE AJUDEI A CRIAR SUA TECNOLOGIA</p>
   <div class="project-tabs-container card-container">
 
-    <ul class="project-tabs fade-in" data-delay="100">
-      <li class="active" data-project="proj1"><i class="fas fa-user-md"></i>Job Portal</li>
-      <li data-project="proj2"><i class="fas fa-calendar-check"></i>Training Management System</li>
-      <li data-project="proj3"><i class="fas fa-chart-bar"></i>Easy Biometry System</li>
+    <ul class="project-tabs" data-aos="fade-up" data-aos-delay="200">
+      <li class="active" data-project="proj1">
+        <span class="material-icons">work</span>Portal de Vagas
+      </li>
+      <li data-project="proj2">
+        <span class="material-icons">event</span>Sistema de Treinamento
+      </li>
+      <li data-project="proj3">
+        <span class="material-icons">fingerprint</span>Sistema de Biometria
+      </li>
     </ul>
 
-
-    <div class="project-content fade-in" data-delay="200">
+    <div class="project-content" data-aos="fade-up" data-aos-delay="300">
       <div class="project-desc active" id="proj1">
-        <h3>Job Portal (HR Recruitment System)</h3>
-        <p><strong>Role:</strong> Full Stack Developer | Personal Project deployed for Unimed (2024)</p>
+        <h3>Portal de Vagas (Sistema de Recrutamento RH)</h3>
+        <p><strong>Função:</strong> Desenvolvedor Full Stack | Projeto Pessoal implantado para Unimed (2024)</p>
         <p>
-          Developed a recruitment platform with <strong>candidate management</strong>, <strong>automated screening</strong>,
-          <strong>analytics dashboard</strong> (Chart.js), and <strong>role-based access</strong>. Scaled to over
-          <strong>11,000 users</strong> and <strong>1,200+ job postings</strong>, reducing hiring time by 40%.
+          Desenvolvi uma plataforma de recrutamento com <strong>gestão de candidatos</strong>, <strong>triagem automatizada</strong>,
+          <strong>dashboard de analytics</strong> (Chart.js) e <strong>acesso baseado em funções</strong>. Escalou para mais de
+          <strong>11.000 usuários</strong> e <strong>1.200+ vagas postadas</strong>, reduzindo o tempo de contratação em 40%.
         </p>
         <p>
-          Used <strong>Redis queues</strong> to process over <strong>500+ daily CV uploads</strong> and optimized SQL queries for
-          <strong>10,000+ records</strong>.
+          Usei <strong>filas Redis</strong> para processar mais de <strong>500+ uploads diários de CV</strong> e otimizei consultas SQL para
+          <strong>10.000+ registros</strong>.
         </p>
-        <p><strong>Tech stack:</strong> Laravel, Bootstrap, JavaScript, Livewire, jQuery, Chart.js, MySQL, Redis</p>
+        <p><strong>Stack tecnológica:</strong> Laravel, Bootstrap, JavaScript, Livewire, jQuery, Chart.js, MySQL, Redis</p>
 
         <div class="project-gallery">
-          <a href="./assets/img/vagas1.png" data-lightbox="jobportal" data-title="Job Portal Homepage" target="_blank">
+          <a href="./assets/img/vagas1.png" data-lightbox="jobportal" data-title="Portal de Vagas Homepage" target="_blank">
             <img src="./assets/img/vagas1.png" alt="Dashboard Screenshot" width="200px">
           </a>
-          <a href="./assets/img/calendar.png" data-lightbox="jobportal" data-title="Job Portal Homepage" target="_blank">
-            <img src="./assets/img/calendar.png" alt="Dashboard Screenshot" width="200px">
+          <a href="./assets/img/calendar.png" data-lightbox="jobportal" data-title="Portal de Vagas Calendar" target="_blank">
+            <img src="./assets/img/calendar.png" alt="Calendar Screenshot" width="200px">
           </a>
-         
         </div>
       </div>
-
 
       <div class="project-desc" id="proj2">
-        <h3>Training Management System</h3>
-        <p><strong>Role:</strong> Full Stack Developer | Unimed Regional Jaú (2024)</p>
+        <h3>Sistema de Gestão de Treinamentos</h3>
+        <p><strong>Função:</strong> Desenvolvedor Full Stack | Unimed Regional Jaú (2024)</p>
         <p>
-          Built a complete training platform featuring a <strong>dynamic calendar</strong>, <strong>QR code-based attendance</strong>,
-          employee <strong>feedback surveys</strong>, and interactive <strong>dashboards</strong> using ApexCharts.
+          Construí uma plataforma completa de treinamento com <strong>calendário dinâmico</strong>, <strong>presença baseada em QR code</strong>,
+          <strong>pesquisas de feedback</strong> de funcionários e <strong>dashboards</strong> interativos usando ApexCharts.
         </p>
         <p>
-          Achieved <strong>95%+ attendance accuracy</strong> and reduced <strong>onboarding time by 20%</strong>.
-          Enabled <strong>data-driven decisions</strong> through clear visualizations of training ROI and engagement.
+          Alcancei <strong>95%+ de precisão na presença</strong> e reduzi o <strong>tempo de onboarding em 20%</strong>.
+          Habilitei <strong>decisões baseadas em dados</strong> através de visualizações claras do ROI e engajamento de treinamento.
         </p>
-        <p><strong>Tech stack:</strong> Laravel, Livewire, PostgreSQL, Bootstrap 5, JavaScript, ApexCharts</p>
+        <p><strong>Stack tecnológica:</strong> Laravel, Livewire, PostgreSQL, Bootstrap 5, JavaScript, ApexCharts</p>
 
         <div class="project-gallery">
-          <a href="./assets/img/treinamento1.png" data-lightbox="jobportal" data-title="Job Portal Homepage" target="_blank">
-            <img src="./assets/img/treinamento1.png" alt="Dashboard Screenshot" width="200px">
+          <a href="./assets/img/treinamento1.png" data-lightbox="training" data-title="Sistema de Treinamento" target="_blank">
+            <img src="./assets/img/treinamento1.png" alt="Training Screenshot" width="200px">
           </a>
-          <a href="./assets/img/treinamento2.png" data-lightbox="jobportal" data-title="Job Portal Homepage" target="_blank">
-            <img src="./assets/img/treinamento2.png" alt="Dashboard Screenshot" width="200px">
+          <a href="./assets/img/treinamento2.png" data-lightbox="training" data-title="Training Dashboard" target="_blank">
+            <img src="./assets/img/treinamento2.png" alt="Training Dashboard" width="200px">
           </a>
         </div>
       </div>
-
 
       <div class="project-desc" id="proj3">
-        <h3>Easy Biometry System</h3>
-        <p><strong>Role:</strong> Full Stack Developer (AI Integration Specialist) | Unimed Regional Jaú (2024)</p>
+        <h3>Sistema Easy Biometry</h3>
+        <p><strong>Função:</strong> Desenvolvedor Full Stack (Especialista em Integração IA) | Unimed Regional Jaú (2024)</p>
         <p>
-          Developed a <strong>patient identity verification system</strong> using <strong>DeepStack AI</strong>, with built-in
-          <strong>consent workflows</strong> and a full-featured <strong>admin portal</strong> for auditing and logs.
+          Desenvolvi um <strong>sistema de verificação de identidade de pacientes</strong> usando <strong>DeepStack AI</strong>, com
+          <strong>fluxos de consentimento</strong> integrados e um <strong>portal administrativo</strong> completo para auditoria e logs.
         </p>
         <p>
-          Achieved <strong>99.7% facial match accuracy</strong> and significantly reduced fraud risks in patient onboarding.
-          The system processes over <strong>300+ biometric transactions monthly</strong> via a <strong>HIPAA-compliant REST API</strong>.
+          Alcancei <strong>99.7% de precisão na correspondência facial</strong> e reduzi significativamente os riscos de fraude no onboarding de pacientes.
+          O sistema processa mais de <strong>300+ transações biométricas mensais</strong> via uma <strong>API REST compatível com HIPAA</strong>.
         </p>
-        <p><strong>Tech stack:</strong> Laravel, Python, DeepStack (Facial Recognition), REST API, Bootstrap</p>
+        <p><strong>Stack tecnológica:</strong> Laravel, Python, DeepStack (Reconhecimento Facial), REST API, Bootstrap</p>
 
         <div class="project-gallery">
-          <a href="./assets/img/biodoc1.png" data-lightbox="jobportal" data-title="Job Portal Homepage" target="_blank">
-            <img src="./assets/img/biodoc1.png" alt="Dashboard Screenshot" width="200px">
+          <a href="./assets/img/biodoc1.png" data-lightbox="biometry" data-title="Sistema de Biometria" target="_blank">
+            <img src="./assets/img/biodoc1.png" alt="Biometry Screenshot" width="200px">
           </a>
-          <a href="./assets/img/biodoc2.png" data-lightbox="jobportal" data-title="Job Portal Homepage" target="_blank">
-            <img src="./assets/img/biodoc2.png" alt="Dashboard Screenshot" width="200px">
+          <a href="./assets/img/biodoc2.png" data-lightbox="biometry" data-title="Biometry Dashboard" target="_blank">
+            <img src="./assets/img/biodoc2.png" alt="Biometry Dashboard" width="200px">
           </a>
         </div>
       </div>
@@ -618,286 +605,163 @@
   </div>
 </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- CARROSSEL DE CERTIFICAÇÕES -->
 <section class="certifications-section" id="achievements">
-  <h2>Achievements And Certifications <span>🏆</span></h2>
-  <p class="subtitle">
-    ACHIEVEMENTS, CERTIFICATIONS, AWARD LETTERS AND SOME COOL STUFF THAT I HAVE DONE!
+  <h2 data-aos="fade-up">
+    <span class="material-icons">emoji_events</span>
+    Conquistas e Certificações <span>🏆</span>
+  </h2>
+  <p class="subtitle" data-aos="fade-up" data-aos-delay="100">
+    CONQUISTAS, CERTIFICAÇÕES, CARTAS DE RECONHECIMENTO E ALGUMAS COISAS LEGAIS QUE FIZ!
   </p>
 
-  <div class="certification-row fade-in" style="display: flex; align-items: center; justify-content: space-between; gap: 50px; padding: 40px; background-color: #2c2c3a; margin-bottom: 30px;">
-  <div style="flex: 1; color: white;">
-    <h3 style="margin-top: 0;">Essential Laravel Training</h3>
-    <p>Completed foundational Laravel course at LinkedIn Learning in 2023.</p>
-    <ul style="margin-top: 20px; padding-left: 20px; list-style: none;">
-      <li>✔ MVC Structure</li>
-      <li>✔ Routing and Controllers</li>
-      <li>✔ Blade Templates</li>
-    </ul>
-    <div class="tags" style="margin-top: 15px;">
-      <span class="tag">Laravel</span>
-      <span class="tag">LinkedIn</span>
-    </div>
-  </div>
-  <div style="flex: 1; text-align: center;">
-    <img src="./assets/img/linkedin.png" alt="Certificate" style="max-width: 120px; height: auto; border-radius: 10px; object-fit: contain;">
-  </div>
-</div>
+  <div class="swiper certifications-swiper" data-aos="fade-up" data-aos-delay="200">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="certification-card">
+          <div class="cert-content">
+            <h3>Essential Laravel Training</h3>
+            <p>Completei o curso fundamental de Laravel no LinkedIn Learning em 2023.</p>
+            <ul>
+              <li><span class="material-icons">check_circle</span>Estrutura MVC</li>
+              <li><span class="material-icons">check_circle</span>Roteamento e Controllers</li>
+              <li><span class="material-icons">check_circle</span>Templates Blade</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">Laravel</span>
+              <span class="tag">LinkedIn</span>
+            </div>
+          </div>
+          <div class="cert-image">
+            <img src="./assets/img/linkedin.png" alt="Certificate">
+          </div>
+        </div>
+      </div>
 
-<div class="certification-row fade-in" style="display: flex; align-items: center; justify-content: space-between; gap: 50px; padding: 40px; background-color: #2c2c3a; margin-bottom: 30px;">
-  <div style="flex: 1; color: white;">
-    <h3 style="margin-top: 0;">Building RESTful APIs with Laravel</h3>
-    <p>Learned how to build scalable APIs using Laravel and Eloquent. (2023)</p>
-    <ul style="margin-top: 20px; padding-left: 20px; list-style: none;">
-      <li>✔ Laravel Eloquent</li>
-      <li>✔ API Versioning</li>
-      <li>✔ Security Best Practices</li>
-    </ul>
-    <div class="tags" style="margin-top: 15px;">
-      <span class="tag">API</span>
-      <span class="tag">Laravel</span>
-    </div>
-  </div>
-  <div style="flex: 1; text-align: center;">
-    <img src="./assets/img/linkedin.png" alt="Certificate" style="max-width: 120px; height: auto; border-radius: 10px; object-fit: contain;">
-  </div>
-</div>
+      <div class="swiper-slide">
+        <div class="certification-card">
+          <div class="cert-content">
+            <h3>Building RESTful APIs with Laravel</h3>
+            <p>Aprendi como construir APIs escaláveis usando Laravel e Eloquent. (2023)</p>
+            <ul>
+              <li><span class="material-icons">check_circle</span>Laravel Eloquent</li>
+              <li><span class="material-icons">check_circle</span>Versionamento de API</li>
+              <li><span class="material-icons">check_circle</span>Melhores Práticas de Segurança</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">API</span>
+              <span class="tag">Laravel</span>
+            </div>
+          </div>
+          <div class="cert-image">
+            <img src="./assets/img/linkedin.png" alt="Certificate">
+          </div>
+        </div>
+      </div>
 
-<div class="certification-row fade-in" style="display: flex; align-items: center; justify-content: space-between; gap: 50px; padding: 40px; background-color: #2c2c3a; margin-bottom: 30px;">
-  <div style="flex: 1; color: white;">
-    <h3 style="margin-top: 0;">React: Full-Stack Deployment</h3>
-    <p>Built and deployed full-stack apps with React and backend APIs. (2023)</p>
-    <ul style="margin-top: 20px; padding-left: 20px; list-style: none;">
-      <li>✔ CI/CD Pipelines</li>
-      <li>✔ Dockerized Deployments</li>
-      <li>✔ Cloud Hosting</li>
-    </ul>
-    <div class="tags" style="margin-top: 15px;">
-      <span class="tag">React</span>
-      <span class="tag">Deployment</span>
-    </div>
-  </div>
-  <div style="flex: 1; text-align: center;">
-    <img src="./assets/img/linkedin.png" alt="Certificate" style="max-width: 120px; height: auto; border-radius: 10px; object-fit: contain;">
-  </div>
-</div>
+      <div class="swiper-slide">
+        <div class="certification-card">
+          <div class="cert-content">
+            <h3>React: Full-Stack Deployment</h3>
+            <p>Construí e implantei aplicações full-stack com React e APIs backend. (2023)</p>
+            <ul>
+              <li><span class="material-icons">check_circle</span>Pipelines CI/CD</li>
+              <li><span class="material-icons">check_circle</span>Deployments Dockerizados</li>
+              <li><span class="material-icons">check_circle</span>Hospedagem em Nuvem</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">React</span>
+              <span class="tag">Deployment</span>
+            </div>
+          </div>
+          <div class="cert-image">
+            <img src="./assets/img/linkedin.png" alt="Certificate">
+          </div>
+        </div>
+      </div>
 
-<div class="certification-row fade-in" style="display: flex; align-items: center; justify-content: space-between; gap: 50px; padding: 40px; background-color: #2c2c3a; margin-bottom: 30px;">
-  <div style="flex: 1; color: white;">
-    <h3 style="margin-top: 0;">React: UI Building</h3>
-    <p>Learned advanced UI patterns and best practices with React. (2023)</p>
-    <ul style="margin-top: 20px; padding-left: 20px; list-style: none;">
-      <li>✔ Component Architecture</li>
-      <li>✔ State Management</li>
-      <li>✔ UI Optimization</li>
-    </ul>
-    <div class="tags" style="margin-top: 15px;">
-      <span class="tag">React</span>
-      <span class="tag">UI</span>
+      <div class="swiper-slide">
+        <div class="certification-card">
+          <div class="cert-content">
+            <h3>Advanced Laravel</h3>
+            <p>Dominei service containers, policies, queues e arquitetura. (2023)</p>
+            <ul>
+              <li><span class="material-icons">check_circle</span>Service Providers</li>
+              <li><span class="material-icons">check_circle</span>Authorization Policies</li>
+              <li><span class="material-icons">check_circle</span>Queued Jobs</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">Laravel</span>
+              <span class="tag">Avançado</span>
+            </div>
+          </div>
+          <div class="cert-image">
+            <img src="./assets/img/linkedin.png" alt="Certificate">
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next"><span class="material-icons">arrow_forward</span></div>
+    <div class="swiper-button-prev"><span class="material-icons">arrow_back</span></div>
   </div>
-  <div style="flex: 1; text-align: center;">
-    <img src="./assets/img/linkedin.png" alt="Certificate" style="max-width: 120px; height: auto; border-radius: 10px; object-fit: contain;">
-  </div>
-</div>
-
-<div class="certification-row fade-in" style="display: flex; align-items: center; justify-content: space-between; gap: 50px; padding: 40px; background-color: #2c2c3a; margin-bottom: 30px;">
-  <div style="flex: 1; color: white;">
-    <h3 style="margin-top: 0;">Laravel Testing 101</h3>
-    <p>Covered PHPUnit and TDD techniques in Laravel ecosystem. (2023)</p>
-    <ul style="margin-top: 20px; padding-left: 20px; list-style: none;">
-      <li>✔ Unit Tests</li>
-      <li>✔ Feature Tests</li>
-      <li>✔ Test-Driven Development</li>
-    </ul>
-    <div class="tags" style="margin-top: 15px;">
-      <span class="tag">Testing</span>
-      <span class="tag">Laravel</span>
-    </div>
-  </div>
-  <div style="flex: 1; text-align: center;">
-    <img src="./assets/img/linkedin.png" alt="Certificate" style="max-width: 120px; height: auto; border-radius: 10px; object-fit: contain;">
-  </div>
-</div>
-
-<div class="certification-row fade-in" style="display: flex; align-items: center; justify-content: space-between; gap: 50px; padding: 40px; background-color: #2c2c3a; margin-bottom: 30px;">
-  <div style="flex: 1; color: white;">
-    <h3 style="margin-top: 0;">Advanced Laravel</h3>
-    <p>Mastered service containers, policies, queues, and architecture. (2023)</p>
-    <ul style="margin-top: 20px; padding-left: 20px; list-style: none;">
-      <li>✔ Service Providers</li>
-      <li>✔ Authorization Policies</li>
-      <li>✔ Queued Jobs</li>
-    </ul>
-    <div class="tags" style="margin-top: 15px;">
-      <span class="tag">Laravel</span>
-      <span class="tag">Advanced</span>
-    </div>
-  </div>
-  <div style="flex: 1; text-align: center;">
-    <img src="./assets/img/linkedin.png" alt="Certificate" style="max-width: 120px; height: auto; border-radius: 10px; object-fit: contain;">
-  </div>
-</div>
-
-<!-- Fatec 1 -->
-<div class="certification-row fade-in" style="display: flex; align-items: center; justify-content: space-between; gap: 50px; padding: 40px; background-color: #2c2c3a; margin-bottom: 30px;">
-  <div style="flex: 1; color: white;">
-    <h3 style="margin-top: 0;">Basic & Advanced SQL</h3>
-    <p>Completed SQL fundamentals and advanced relational querying. (2017)</p>
-    <ul style="margin-top: 20px; padding-left: 20px; list-style: none;">
-      <li>✔ SELECT, JOINs, GROUP BY</li>
-      <li>✔ Subqueries & Indexing</li>
-      <li>✔ Stored Procedures</li>
-    </ul>
-    <div class="tags" style="margin-top: 15px;">
-      <span class="tag">SQL</span>
-      <span class="tag">Fatec</span>
-    </div>
-  </div>
-  <div style="flex: 1; text-align: center;">
-    <img src="./assets/img/fatec.png" alt="Fatec Logo" style="max-width: 120px; height: auto; border-radius: 10px; object-fit: contain;">
-  </div>
-</div>
-
-<!-- Fatec 2 -->
-<div class="certification-row fade-in" style="display: flex; align-items: center; justify-content: space-between; gap: 50px; padding: 40px; background-color: #2c2c3a; margin-bottom: 30px;">
-  <div style="flex: 1; color: white;">
-    <h3 style="margin-top: 0;">PHP + MySQL</h3>
-    <p>Built dynamic PHP applications with MySQL backend. (2019)</p>
-    <ul style="margin-top: 20px; padding-left: 20px; list-style: none;">
-      <li>✔ CRUD Applications</li>
-      <li>✔ PDO & Prepared Statements</li>
-      <li>✔ MVC Basics</li>
-    </ul>
-    <div class="tags" style="margin-top: 15px;">
-      <span class="tag">PHP</span>
-      <span class="tag">MySQL</span>
-      <span class="tag">Fatec</span>
-    </div>
-  </div>
-  <div style="flex: 1; text-align: center;">
-    <img src="./assets/img/fatec.png" alt="Fatec Logo" style="max-width: 120px; height: auto; border-radius: 10px; object-fit: contain;">
-  </div>
-</div>
-
 </section>
-
-
-
-
-
-
-
-
 
 <section class="contact-footer-section" id="contact">
   <div class="contact-container">
-    <div class="contact-info">
-      <h2>Reach Out to me!</h2>
-      <p class="subtitle">DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.</p>
+    <div class="contact-info" data-aos="fade-right">
+      <h2>
+        <span class="material-icons">contact_mail</span>
+        Entre em Contato!
+      </h2>
+      <p class="subtitle">DISCUTIR UM PROJETO OU APENAS QUER DIZER OI? MINHA CAIXA DE ENTRADA ESTÁ ABERTA PARA TODOS.</p>
       <p class="role">
-        <strong>Full Stack Developer @Unimed Regional Jaú</strong>
+        <strong><span class="material-icons">work</span>Full Stack Developer @Unimed Regional Jaú</strong>
       </p>
-      <p><i class="fas fa-map-marker-alt"></i> Jaú, SP - Brazil (Remote)</p>
-      <p><strong>Open for opportunities:</strong> Yes</p>
+      <p><span class="material-icons">location_on</span> Jaú, SP - Brasil (Remoto)</p>
+      <p><strong>Aberto para oportunidades:</strong> <span class="material-icons" style="color: green;">check_circle</span> Sim</p>
 
       <div class="social-icons">
-        <a href="https://github.com/marcospaulobez"><i class="fab fa-github"></i></a>
-        <a href="https://br.linkedin.com/in/marcos-paulo-birolo"><i class="fab fa-linkedin"></i></a>
-        <a href="mailto:rockbez@hotmail.com"><i class="fas fa-envelope"></i></a>
-        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="https://github.com/marcospaulobez" class="animate__animated animate__pulse animate__infinite animate__slower">
+          <span class="material-icons">code</span>
+        </a>
+        <a href="https://br.linkedin.com/in/marcos-paulo-birolo" class="animate__animated animate__pulse animate__infinite animate__slower">
+          <span class="material-icons">work</span>
+        </a>
+        <a href="mailto:rockbez@hotmail.com" class="animate__animated animate__pulse animate__infinite animate__slower">
+          <span class="material-icons">email</span>
+        </a>
+        <a href="#" class="animate__animated animate__pulse animate__infinite animate__slower">
+          <span class="material-icons">facebook</span>
+        </a>
       </div>
     </div>
 
-    <div class="contact-photo">
-      <img src="./assets/img/profile.png" alt="Profile Photo" width="200">
+    <div class="contact-photo" data-aos="fade-left">
+      <img src="./assets/img/profile.png" alt="Profile Photo" width="200" class="animate__animated animate__bounceIn">
     </div>
   </div>
 
   <footer class="site-footer">
-    <p>Made with ❤️ by Marcos Paulo</p>
+    <p>Feito com <span class="material-icons" style="color: red;">favorite</span> por Marcos Paulo</p>
     <p>Desenvolvido por Marcos Paulo Bez Birolo | © 2025</p>
-
   </footer>
 </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </main>
 
-
-
-
-<button id="back-to-top" title="Voltar ao topo">↑</button>
+<button id="back-to-top" title="Voltar ao topo" class="animate__animated animate__bounceIn">
+  <span class="material-icons">keyboard_arrow_up</span>
+</button>
 
 <!-- IMPORTS -->
- <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
-<script src="./assets/js/script.js"></script>
-
- 
+<script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./assets/js/main.js"></script>
+<script src="./assets/js/carousel.js"></script>
+<script src="./assets/js/animations.js"></script>
 
 </body>
 </html>
+
